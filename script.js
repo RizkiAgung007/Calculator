@@ -1,15 +1,15 @@
 // Mengambil elemen-elemen DOM yang diperlukan
-const displayHistory = document.querySelector(".history"); // Elemen untuk menampilkan sejarah operasi
-const displayInput = document.querySelector(".display-input"); // Elemen untuk menampilkan input pengguna
-const tempResult = document.querySelector(".temp-result"); // Elemen untuk menampilkan hasil sementara
-const numbers = document.querySelectorAll(".number"); // Mengambil semua tombol angka
-const operations = document.querySelectorAll(".operation"); // Mengambil semua tombol operasi
-const equals = document.querySelector(".equal"); // Mengambil tombol sama dengan (=)
-const clearAll = document.querySelector(".all-clear"); // Mengambil tombol clear all (AC)
-const clearLast = document.querySelector(".last-entity"); // Mengambil tombol clear last (CE)
+const displayHistory = document.querySelector(".history"); 
+const displayInput = document.querySelector(".display-input");
+const tempResult = document.querySelector(".temp-result");
+const numbers = document.querySelectorAll(".number");
+const operations = document.querySelectorAll(".operation");
+const equals = document.querySelector(".equal");
+const clearAll = document.querySelector(".all-clear");
+const clearLast = document.querySelector(".last-entity");
 
 // Inisialisasi variabel
-let dishis = ""; // Menyimpan sejarah operasi
+let dishis = ""; // Menyimpan display history
 let disinp = ""; // Menyimpan input pengguna saat ini
 let result = null; // Menyimpan hasil operasi
 let lastOperation = ""; // Menyimpan operasi terakhir yang dilakukan
